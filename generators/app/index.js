@@ -21,7 +21,7 @@ var AngularNgCustomModule = yeoman.generators.Base.extend({
         var prompts = [
             {
                 name: 'appName',
-                message: 'Enter your project name?'
+                message: 'Qual o nome do Projeto?'
             }
         ];
         this.prompt(prompts, function (props) {
